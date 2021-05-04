@@ -7,7 +7,6 @@ import Logo from "@/icons/Logo";
 const Footer = () => {
   return (
     <FooterStyled>
-      Soy el Footer
       <div className="imgCont">
         <Logo fill="white" />
       </div>
@@ -37,7 +36,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="socialSection">
-        <a href="#">
+        <a className="facebook" href="#">
           <FaceBook fill="white" />
         </a>
         <a href="#">

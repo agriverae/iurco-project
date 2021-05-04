@@ -8,7 +8,13 @@ const theme = {
     darkCyan: "#364850",
   },
   fonts: [],
-  breakpoints: {},
+  breakpoints: {
+    xs: 480, //mobile
+    sm: 768, // tablet
+    md: 992, // deskop
+    lg: 1200, // big desktop
+    xlg: 1600,
+  },
 };
 
 export default theme;
