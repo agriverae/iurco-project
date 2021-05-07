@@ -14,8 +14,6 @@ const BottomStyled = styled.div`
       props.theme.breakpoints.md}px) {
     display: block;
     padding: 20px 50px;
-    align-content: center;
-    justify-content: center;
     ${ImageCardStyled} ~ ${ImageCardStyled} {
       margin: 30px auto 0 auto;
     }

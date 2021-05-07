@@ -1,5 +1,5 @@
 import TopStyled from "./TopStyled";
-import scrum from "src/images/scrumorg.png";
+import scrum from "@/images/scrumorg.png";
 function Top() {
   return (
     <TopStyled>
