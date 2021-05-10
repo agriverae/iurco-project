@@ -7,7 +7,7 @@ function Trabajemos() {
         <h2>
           TRABAJEMOS JUNTOS <span>EN ALCANZAR TUS METAS</span>
         </h2>
-        <button>Empezó tu proyecto</button>
+        <button>Empezá tu proyecto</button>
       </div>
     </TrabajemosStyled>
   );
