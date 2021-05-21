@@ -32,7 +32,6 @@ function Asesoramientos() {
           "Desarrollo de Node JS",
           "Integración de Sistemas externos",
           "Desarrollos de apps PWA",
-          "x",
         ]}
         image={cohete}
       />

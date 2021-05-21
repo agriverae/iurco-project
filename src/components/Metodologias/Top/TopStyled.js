@@ -4,12 +4,10 @@ const TopStyled = styled.div`
   background-color: ${(props) => props.theme.colors.cyan};
   display: flex;
   padding: 50px 100px 65px 100px;
-  width: 100%;
 
   .textBox {
     color: ${(props) => props.theme.colors.darkestGray};
-    height: 100%;
-    justify-content: center;
+
     .title {
       font-size: 25px;
       h2 {

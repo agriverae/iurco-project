@@ -11,11 +11,10 @@ function CardAsesoramientos({ title, descriptions, image }) {
             <li>{description}</li>
           ))}
         </ul>
-        <div>
-          <button>
-            Más info <img src={flechaBlanca} alt="" />
-          </button>
-        </div>
+
+        <button>
+          Más info <img src={flechaBlanca} alt="" />
+        </button>
       </div>
 
       <div className="cohete">

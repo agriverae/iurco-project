@@ -4,8 +4,6 @@ const AsesoramientosStyled = styled.div`
   background-color: ${(props) => props.theme.colors.cyan};
   display: flex;
   padding: 40px 20px 40px 240px;
-  width: 100%;
-  height: 280px;
   border-bottom: 2px solid yellow;
 `;
 

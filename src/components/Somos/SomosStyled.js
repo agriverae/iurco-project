@@ -9,7 +9,6 @@ const SomosStyled = styled.div`
       color: ${(props) => props.theme.colors.darkCyan};
       font-size: 38px;
       font-weight: 800;
-      padding: 0px;
       margin-right: 20px;
       text-align: right;
       //modificar el interlineado
@@ -17,7 +16,7 @@ const SomosStyled = styled.div`
   }
 
   .descripcion {
-    p {
+    & > p {
       font-size: 17px;
       margin-bottom: 25px;
     }
@@ -30,22 +29,14 @@ const SomosStyled = styled.div`
   }
   .hubs {
     display: flex;
-    p {
-      margin: 0px;
-    }
   }
 
   @media only screen and (max-width: ${(props) =>
       props.theme.breakpoints.lg}px) {
     flex-direction: column;
     margin: 50px 20px;
-    //margin-left:20px;
-    //margin-top: 50px ;
 
-    /*div.slick-slide.slick-active.slick-current {
-      color: red;
-    }*/
-
+    //botones del slider costumizados
     .customDots {
       display: flex !important;
       list-style: none;
@@ -61,7 +52,6 @@ const SomosStyled = styled.div`
           background: ${(props) => props.theme.colors.darkGray};
           color: transparent;
           cursor: pointer;
-          display: block;
           height: 15px;
           width: 15px;
           border-radius: 7.5px;
@@ -84,7 +74,6 @@ const SomosStyled = styled.div`
         margin-left: 6%;
         margin-top: 90px;
         text-align: left;
-        justify-content: flex-end;
       }
     }
     .descripcion {
