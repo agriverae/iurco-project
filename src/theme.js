@@ -19,3 +19,5 @@ const theme = {
 };
 
 export default theme;
+
+//${(props) => props.theme.colors.cyan};
