@@ -7,8 +7,8 @@ function CardAsesoramientos({ title, descriptions, image }) {
       <div className="textBox">
         <h3>{title} </h3>
         <ul>
-          {descriptions.map((description) => (
-            <li>{description}</li>
+          {descriptions.map((description, idx) => (
+            <li key={idx}>{description}</li>
           ))}
         </ul>
 

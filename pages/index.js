@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Metodologias from "@/components/Metodologias";
 import Trabajemos from "@/components/Trabajemos";
 import Asesoramientos from "@/components/Asesoramientos";
+
 function Home() {
   return (
     <>

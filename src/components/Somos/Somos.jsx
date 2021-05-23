@@ -5,7 +5,7 @@ import telefono from "@/images/telefono.png";
 import pc from "@/images/ordenador.png";
 import { useMediaPredicate } from "react-media-hook";
 import dynamic from "next/dynamic";
-import SliderSomos from "./SliderSomos";
+
 const DynamicSliderSomos = dynamic(() => import("./SliderSomos"), {
   ssr: false,
 });

@@ -3,8 +3,12 @@ import FaceBook from "@/icons/Facebook";
 import Linkedin from "@/icons/Linkedin";
 import Instagram from "@/icons/Instagram";
 import Logo from "@/icons/Logo";
+import useLang from "@/Context/language";
 
 const Footer = () => {
+  const { footer } = useLang();
+  const { list } = footer;
+
   return (
     <FooterStyled>
       <div className="imgCont">
@@ -12,27 +16,11 @@ const Footer = () => {
       </div>
       <div className="footerNav">
         <ul>
-          <li>
-            <a href="#">SOMOS</a>
-          </li>
-          <li>
-            <a href="#">HACEMOS</a>
-          </li>
-          <li>
-            <a href="#">DICEN DE NOSOTROS</a>
-          </li>
-          <li>
-            <a href="#">PROYECTOS</a>
-          </li>
-          <li>
-            <a href="#">METODOLOGÍA</a>
-          </li>
-          <li>
-            <a href="#">CLIENTES</a>
-          </li>
-          <li>
-            <a href="#">CONTACTO</a>
-          </li>
+          {list.map(({ text }, idx) => (
+            <li key={idx}>
+              <a href="#">{text}</a>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="socialSection">
