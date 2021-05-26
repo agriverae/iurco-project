@@ -4,7 +4,7 @@ const SliderExperiencia = ({ children, isMobile }) => {
   const settings = {
     dots: true,
     infinite: true,
-    centerMode: false,
+    centerMode: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     variableWidth: true,
@@ -14,7 +14,7 @@ const SliderExperiencia = ({ children, isMobile }) => {
   return isMobile ? (
     <Slider {...settings}>{children}</Slider>
   ) : (
-    <div className="hubs">{children}</div>
+    <div className="NOMBRE DEL CONTENEDOR">{children}</div>
   );
 };
 

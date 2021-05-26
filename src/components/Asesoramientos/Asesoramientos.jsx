@@ -2,7 +2,19 @@ import CardAsesoramientos from "../CardAsesoramientos/CardAsesoramientos";
 import AsesoramientosStyled from "./AsesoramientosStyled";
 import cohete from "@/images/cohete.png";
 import Slider from "react-slick";
+import { useMediaPredicate } from "react-media-hook";
+import dynamic from "next/dynamic";
+import SliderAsesoramientos from "./SliderAsesoramientos";
+
+const DynamicSliderAsesoramientos = dynamic(
+  () => import("./SliderAsesoramientos"),
+  {
+    ssr: false,
+  }
+);
+
 function Asesoramientos() {
+  const isMobile = useMediaPredicate("(max-width: 992px)");
   return (
     <AsesoramientosStyled>
       <CardAsesoramientos

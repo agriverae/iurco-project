@@ -52,9 +52,9 @@ const SomosStyled = styled.div`
           background: ${(props) => props.theme.colors.darkGray};
           color: transparent;
           cursor: pointer;
-          height: 15px;
-          width: 15px;
-          border-radius: 7.5px;
+          height: 12px;
+          width: 12px;
+          border-radius: 6px;
         }
 
         &.slick-active button {
