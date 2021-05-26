@@ -1,6 +1,7 @@
 import CardAsesoramientos from "../CardAsesoramientos/CardAsesoramientos";
 import AsesoramientosStyled from "./AsesoramientosStyled";
 import cohete from "@/images/cohete.png";
+import Slider from "react-slick";
 function Asesoramientos() {
   return (
     <AsesoramientosStyled>
