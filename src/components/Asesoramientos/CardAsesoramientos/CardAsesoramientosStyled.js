@@ -55,7 +55,7 @@ const CardAsesoramientosStyled = styled.div`
   @media only screen and (max-width: ${(props) =>
       props.theme.breakpoints.md}px) {
     background-color: ${(props) => props.theme.colors.cyan};
-    f .textBox {
+    .textBox {
       h3 {
         font-size: 28px;
         font-weight: 800;

@@ -1,4 +1,4 @@
-import CardAsesoramientos from "../CardAsesoramientos/CardAsesoramientos";
+import CardAsesoramientos from "./CardAsesoramientos";
 import AsesoramientosStyled from "./AsesoramientosStyled";
 import cohete from "@/images/cohete.png";
 import Slider from "react-slick";
@@ -14,7 +14,6 @@ const DynamicSliderAsesoramientos = dynamic(
 );
 
 function Asesoramientos() {
-  const isMobile = useMediaPredicate("(max-width: 992px)");
   return (
     <AsesoramientosStyled>
       <CardAsesoramientos

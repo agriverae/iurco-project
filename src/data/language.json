@@ -1,0 +1,20 @@
+{
+  "english": {
+    "header": {},
+    "footer": {}
+  },
+  "spanish": {
+    "header": {},
+    "footer": {
+      "list": [
+        { "text": "SOMOS" },
+        { "text": "HACEMOS" },
+        { "text": "DICEN DE NOSOTROS" },
+        { "text": "PROYECTOS" },
+        { "text": "METODOLOGÍA" },
+        { "text": "CLIENTES" },
+        { "text": "CONTACTO" }
+      ]
+    }
+  }
+}
