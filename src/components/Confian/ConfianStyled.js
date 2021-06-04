@@ -6,10 +6,17 @@ const ConfianStyled = styled.div`
     font-size: 38px;
     font-weight: 800;
     width: 225px;
+    color: ${(props) => props.theme.colors.darkCyan};
   }
+  //.cajaimagen {
+    //display: flex;
+    //width: 100%;
+    //height: 100%;
+  }
+
   //--------------------------------------------------
   @media only screen and (max-width: ${(props) =>
-      props.theme.breakpoints.md}px) {
+    props.theme.breakpoints.md}px) {
   }
 `;
 

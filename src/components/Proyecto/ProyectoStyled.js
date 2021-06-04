@@ -84,7 +84,7 @@ const ProyectoStyled = styled.div`
     .drive {
       .textBox {
         p {
-          width: 75%;
+          width: 300px;
         }
       }
     }

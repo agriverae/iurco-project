@@ -1,7 +1,6 @@
 import ConfianStyled from "./ConfianStyled";
 import Image from "next/image";
 import imagenes from "./data.json";
-import image from "next/image";
 
 function Confian() {
   //console.log( json );
@@ -12,13 +11,16 @@ function Confian() {
         <div>
           {imagenes.map((imagen) => {
             return (
+              //<div className=" cajaImagen">
               <Image
                 key={imagen.alt}
                 src={`/images${imagen.path}`}
                 alt={imagen.alt}
-                width="auto"
-                height="auto"
+                width="150px"
+                height="100%"
+                margin="50px"
               />
+              //</div>
             );
           })}
         </div>
